@@ -3,7 +3,7 @@ import { TbCoinTakaFilled } from 'react-icons/tb';
 
 export default function Navigation() {
   return (
-    <div className='flex items-center justify-between w-10/12 mx-auto pt-[50px]'>
+    <div className='flex items-center justify-between w-10/12 mx-auto pt-[50px] pb-6'>
       <div>
         <img src={logo} alt="Logo" />
       </div>
