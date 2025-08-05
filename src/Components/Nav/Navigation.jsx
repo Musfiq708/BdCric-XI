@@ -1,7 +1,7 @@
 import logo from '../../assets/logo.png';
 import { TbCoinTakaFilled } from 'react-icons/tb';
 
-export default function Navigation() {
+export default function Navigation({bannerbtn}) {
   return (
     <div className='flex items-center justify-between w-10/12 mx-auto pt-[50px] pb-6'>
       <div>
@@ -13,7 +13,7 @@ export default function Navigation() {
         <a className='nav-options' href="">Teams</a>
         <a className='nav-options' href="">Schedules</a>
         <div className='flex items-center border border-[#1313131A] rounded-xl py-4 px-5 gap-[10px] hover:border-red-600'>
-          <p className='text-base font-semibold '>0 Coin</p>
+          <p className='text-base font-semibold '>{bannerbtn} Coin</p>
           <TbCoinTakaFilled className='text-[35px] text-orange-400 font- border-amber-600' />
         </div>
       </div>
