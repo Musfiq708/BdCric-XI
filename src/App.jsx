@@ -2,7 +2,7 @@ import { useState } from "react"
 import Banner from "./Components/Banner/Banner"
 import Navigation from "./Components/Nav/Navigation"
 import Players from "./Components/Players/Players";
-import Available from "./Components/Available/Available";
+import { ToastContainer, toast } from 'react-toastify';
 
 
 function App() {
@@ -11,7 +11,16 @@ function App() {
 
   const freeCreditBtn = () => {
     setBannerBtn(bannerbtn + 1000);
-    console.log(bannerbtn)
+    toast.success('Credit Added to your Account', {
+      position: "top-center",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
   }
 
   const [btnToggle, SetBtnToggle] = useState({
@@ -20,7 +29,7 @@ function App() {
   })
 
   const handleBtnToggle = (statuso) => {
-    
+
     if (statuso == "available") {
       SetBtnToggle({
         available: true,
@@ -40,8 +49,8 @@ function App() {
       <Navigation bannerbtn={bannerbtn}></Navigation>
       <Banner freeCreditBtn={freeCreditBtn}></Banner>
       <Players
-      btnToggle={btnToggle}
-      handleBtnToggle={handleBtnToggle}
+        btnToggle={btnToggle}
+        handleBtnToggle={handleBtnToggle}
       ></Players>
     </>
   )

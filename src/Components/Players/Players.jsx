@@ -5,7 +5,12 @@ export default function Players({handleBtnToggle , btnToggle}) {
     return (
         <div className="w-10/12 mx-auto">
             <div className="flex  justify-between mb-[38px]">
-                <h1 className="font-bold text-[28px] ">Available Players</h1>
+                {
+                    btnToggle.available ?
+                    <h1 className="font-bold text-[28px] ">Available Players</h1>
+                    :
+                    <h1 className="font-bold text-[28px] ">Selected Player (4/6)</h1>
+                }
                 <div className="">
                     <button
                     onClick={()=>handleBtnToggle("available")}
@@ -27,3 +32,4 @@ export default function Players({handleBtnToggle , btnToggle}) {
 // "text-[16px] font-normal py-[14px] px-[30px] bg-white border border-[#1313131A] rounded-r-[12px] text-[#13131399] hover:bg-emerald-100 hover:border-emerald-400"
 {/* <Available></Available>
             <Selected></Selected> */}
+            // <h1 className="font-bold text-[28px] ">Available Players</h1>
