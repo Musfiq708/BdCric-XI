@@ -1,0 +1,136 @@
+{
+    "players": [
+        {
+            "id": 1,
+            "initialId": "SAH",
+            "name": "Shakib Al Hasan",
+            "role": "All-Rounder",
+            "roleStyle": "Slow left-arm orthodox",
+            "rating": 4.9,
+            "price": 15000,
+            "coverImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWXpfRtLkJFRws6vAmBdOl8fiSC_5_51WK7dAMvBqcw2lZOh0QoB1RkhAp&s=10",
+            "profileImg": "https://www.wisden.com/static-assets/images/players/3782.png?v=23.77"
+        },
+        {
+            "id": 2,
+            "initialId": "TI",
+            "name": "Tamim Iqbal",
+            "role": "Opening Batsman",
+            "roleStyle": "Left-handed",
+            "rating": 4.5,
+            "price": 13000,
+            "coverImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHOuaRqDtNBF7tN_qJrpYmjkimm4thrIgqBSgobwG9tN5x9rsmixUBEBMK&s=10",
+            "profileImg": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/385700/385792.1.png"
+        },
+        {
+            "id": 3,
+            "initialId": "MR",
+            "name": "Mushfiqur Rahim",
+            "role": "Wicket-keeper Batsman",
+            "roleStyle": "Right-handed",
+            "rating": 4.7,
+            "price": 12500,
+            "coverImg": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202209/WhatsApp_Image_2022-09-04_at_1_1200x768.jpeg?VersionId=jR.cTg.jfgwQtEi4uS.Xt6GVV1dmGbSf&size=690:388",
+            "profileImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdoRefjlfJRudWMkMBdRYeRryHgstZfYoaEpjcq_JvbRKqRqtDe3W7I8Q&s=10"
+        },
+        {
+            "id": 4,
+            "initialId": "NHS",
+            "name": "Najmul Hossain Shanto",
+            "role": "Top-order Batsman",
+            "roleStyle": "Left-handed",
+            "rating": 4.2,
+            "price": 9000,
+            "coverImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHxpf_LtRAwq50BOT0h4JmnRw7UEqi5ICgHay266GU5sYsz5o9cyt2V8o&s=10",
+            "profileImg": "https://d13ir53smqqeyp.cloudfront.net/player-images/partner-image/BPL/1844.png"
+        },
+        {
+            "id": 5,
+            "initialId": "LD",
+            "name": "Litton Das",
+            "role": "Wicket-keeper Batsman",
+            "roleStyle": "Right-handed",
+            "rating": 4.3,
+            "price": 9500,
+            "coverImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXo5i6mr_90W8wpfyIm3lCDxEKeRNcTl6OtbPsOPvCxSMKddIo879NNsxG&s=10",
+            "profileImg": "https://d13ir53smqqeyp.cloudfront.net/player-images/partner-image/Men/1479.png"
+        },
+        {
+            "id": 6,
+            "initialId": "MRH",
+            "name": "Mustafizur Rahman",
+            "role": "Bowler",
+            "roleStyle": "Left-arm fast-medium",
+            "rating": 4.4,
+            "price": 11000,
+            "coverImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcJ7-SK46u_LGNPKtpbEdj7GKn3_tsO2vRlMB-Y1jT0QTxqfWduHQyLgs&s=10",
+            "profileImg": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/319700/319734.3.png"
+        },
+        {
+            "id": 7,
+            "initialId": "MHM",
+            "name": "Mehidy Hasan Miraz",
+            "role": "All-Rounder",
+            "roleStyle": "Right-arm off break",
+            "rating": 4.1,
+            "price": 8500,
+            "coverImg": "https://onecricketnews.akamaized.net/parth-editor/oc-dashboard/news-images-prod/1749802113452_MehidyHasanMiraz.jpg?type=mq",
+            "profileImg": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/319700/319728.3.png"
+        },
+        {
+            "id": 8,
+            "initialId": "MHD",
+            "name": "Mahmudullah Riyad",
+            "role": "All-Rounder",
+            "roleStyle": "Right-arm off break",
+            "rating": 4.2,
+            "price": 9000,
+            "coverImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJJarHxhZ_dz_S3MxCyTnp0EktrtFNDXlK4WqDTQZsk_h9kDyz-LsiKI&s=10",
+            "profileImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJdwlPB9y4GKFVohk-zP3_ck7ESXOov0c1819TlkdQA46Jj6isuxzJJpBp&s=10"
+        },
+        {
+            "id": 9,
+            "initialId": "TA",
+            "name": "Taskin Ahmed",
+            "role": "Fast Bowler",
+            "roleStyle": "Right-arm fast",
+            "rating": 4.0,
+            "price": 8000,
+            "coverImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXfMbukS_iovroOWzM9y9Chf1hBVZHssWfUSmEwxpyY7gUVWFnjQvDEnLn&s=10",
+            "profileImg": "https://d13ir53smqqeyp.cloudfront.net/player-images/partner-image/Men/1451.png"
+        },
+        {
+            "id": 10,
+            "initialId": "SI",
+            "name": "Shoriful Islam",
+            "role": "Bowler",
+            "roleStyle": "Left-arm medium fast",
+            "rating": 3.9,
+            "price": 7500,
+            "coverImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThLlAbtymOv-2-dW0BTIFZHhZDbHJqL4dcESfZshrYj440toaTVozJdGOO&s=10",
+            "profileImg": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/323100/323175.1.png"
+        },
+        {
+            "id": 11,
+            "initialId": "NA",
+            "name": "Nasum Ahmed",
+            "role": "Bowler",
+            "roleStyle": "Slow left-arm orthodox",
+            "rating": 3.8,
+            "price": 7000,
+            "coverImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHi1jh4H8_s1uQ0RQPQo1A3neib4pNdQVRNAmJzX8Fyfxh20eBO164pN0&s=10",
+            "profileImg": "https://www.wisden.com/static-assets/images/players/57999.png?v=23.77"
+        },
+        {
+            "id": 12,
+            "initialId": "NH",
+            "name": "Nurul Hasan Sohan",
+            "role": "Wicket-keeper",
+            "roleStyle": "Right-handed",
+            "rating": 3.7,
+            "price": 6500,
+            "coverImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtF0wxZ_uRobbf_YShewyjGL9kXnRNOP3vljXm8E3gdnvIN18yoB87nt76&s=10",
+            "profileImg": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/323100/323162.1.png"
+        }
+    ]
+}
