@@ -10,7 +10,7 @@ export default function Available({choosePlayerBtn}) {
   }, [])
  
   return (
-    <div className=" grid grid-cols-3 gap-6 justify-between mb-[380px]">
+    <div className=" grid grid-cols-3 gap-6 justify-between ">
       {
         cards.map(cards =>
           <Cards

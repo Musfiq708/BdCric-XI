@@ -5,7 +5,7 @@ export default function Selected({ selection, teamRemoveBtn, handleBtnToggle }) 
 
   return (
     <div>
-      <div className='mb-[270px]'>
+      <div className=''>
         {
           selection.map((select, idx) =>
             <SelectedPlayer key={idx}

@@ -1,4 +1,5 @@
 import Available from "../Available/Available";
+import Newsletter from "../Newsletter/Newsletter";
 import Selected from "../Selected/Selected";
 
 export default function Players({handleBtnToggle , btnToggle,choosePlayerBtn,selection,teamRemoveBtn,playerNumber}) {
@@ -32,7 +33,9 @@ export default function Players({handleBtnToggle , btnToggle,choosePlayerBtn,sel
                 handleBtnToggle={handleBtnToggle}
                 ></Selected>
             }
+            <Newsletter></Newsletter>
         </div>
+        
         
     )
 }
